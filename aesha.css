@@ -1,0 +1,33 @@
+.header{
+    height:80px;
+    width:100%;
+    background-color: skyblue;
+    justify-content:space-around;
+    align-items:center;
+    }
+
+    .header.header-logo img{
+        height:60px;
+        width: 60px;
+        background-color: red;
+        border-radius:50%;
+    }
+
+    .header.navbar{
+
+    }
+    .header.navbar ul{
+        list-style-type:none;
+    }
+
+    .header.navbar ul li{
+        text-decoration: none;
+        margin:15px;
+        background-color: red;
+        font-size:25px;
+        text-transform:capatalize;
+    }
+
+    .header.navbar ul li a:hover{
+        color:orange;
+    }
